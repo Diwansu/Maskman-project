@@ -1,0 +1,23 @@
+/* Iteration 4: Make the Canvas App Functional */
+// <!--Ironman-Background,Helmet,Eyes,Faceplate -->
+
+const imgFaceplate=document.getElementById("face-plate");
+const buttonfaceplate= document.getElementById("buttonfaceplate");
+buttonfaceplate.oninput=()=>{
+  imgFaceplate.style.fill=buttonfaceplate.value;
+}
+const imghelmet=document.getElementById("helmet");
+const buttonhelmet=document.getElementById("buttonhelmet");
+buttonhelmet.oninput=()=>{
+  imghelmet.style.fill=buttonhelmet.value;
+}
+const imgeyes=document.getElementById("eyes");
+const buttoneyes=document.getElementById("buttoneyes");
+buttoneyes.oninput=()=>{
+  imgeyes.style.fill=buttoneyes.value;
+}
+const imgbackground=document.getElementById("background");
+const buttonbackground=document.getElementById("buttonbackground");
+buttonbackground.oninput=()=>{
+  imgbackground.style.fill=buttonbackground.value;
+}
